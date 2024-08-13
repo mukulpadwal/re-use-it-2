@@ -15,6 +15,7 @@ import { useState } from "react";
 import Skeleton from "react-loading-skeleton";
 import getRandomDate from "../utils/getRandomDate";
 import getRandomAnalytics from "../utils/getRandomAnalytics";
+import { Logo } from "./";
 
 function RandomJokes() {
   const [loading, setLoading] = useState(false);
@@ -220,6 +221,9 @@ function RandomJokes() {
             </div>
           )}
         </div>
+      </div>
+      <div className="absolute bottom-4 right-4">
+        <Logo />
       </div>
     </div>
   );

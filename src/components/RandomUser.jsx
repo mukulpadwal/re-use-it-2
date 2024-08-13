@@ -150,13 +150,7 @@ function RandomUser() {
             <span className="text-white bottom-0 left-0 right-0 text-center absolute">
               &copy; chai aur code
             </span>
-            <Link
-              to={"https://chaicode.com"}
-              target="_blank"
-              className="w-full flex justify-end items-end"
-            >
-              <Logo />
-            </Link>
+            <Logo />
           </div>
         </div>
       ) : (
@@ -279,13 +273,7 @@ function RandomUser() {
             <span className="text-white bottom-0 left-0 right-0 text-center absolute">
               &copy; chai aur code
             </span>
-            <Link
-              to={"https://chaicode.com"}
-              target="_blank"
-              className="w-full flex justify-end items-end"
-            >
-              <Logo />
-            </Link>
+            <Logo />
           </div>
         </div>
       )}
