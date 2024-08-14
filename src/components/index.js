@@ -4,5 +4,14 @@ import CatsListing from "./CatsListing";
 import ErrorPage from "./ErrorPage";
 import Logo from "./Logo";
 import CatInfoCard from "./CatInfoCard";
+import Navbar from "./Navbar";
 
-export { CatInfoCard, RandomJokes, RandomUser, CatsListing, ErrorPage, Logo };
+export {
+  Navbar,
+  CatInfoCard,
+  RandomJokes,
+  RandomUser,
+  CatsListing,
+  ErrorPage,
+  Logo,
+};

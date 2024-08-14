@@ -1,5 +1,5 @@
 import { ArrowLeft, MapPin, Phone, RotateCw } from "lucide-react";
-import { Logo } from "./";
+import { Logo, Navbar } from "./";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
@@ -43,6 +43,7 @@ function RandomUser() {
       style={{ backgroundImage: `url("/assets/bg1.png")` }}
       className={`relative min-w-screen min-h-screen bg-black bg-cover md:bg-contain flex flex-wrap justify-center items-center`}
     >
+      <Navbar className="absolute top-0 bottom-0 left-0 right-0" />
       {loading ? (
         <div className="relative border-8 border-white rounded-xl bg-[#B6B3F3] w-3/4 sm:w-2/4 md:w-2/4 lg:w-2/6 flex flex-col justify-center items-center gap-6 p-2">
           <div className="w-full flex flex-row justify-around items-center mt-2">

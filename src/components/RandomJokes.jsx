@@ -15,7 +15,7 @@ import { useState } from "react";
 import Skeleton from "react-loading-skeleton";
 import getRandomDate from "../utils/getRandomDate";
 import getRandomAnalytics from "../utils/getRandomAnalytics";
-import { Logo } from "./";
+import { Logo, Navbar } from "./";
 
 function RandomJokes() {
   const [loading, setLoading] = useState(false);
@@ -46,6 +46,7 @@ function RandomJokes() {
       style={{ backgroundImage: `url("/assets/bg2.png")` }}
       className={`relative min-w-screen min-h-screen text-white bg-cover flex flex-wrap justify-center items-center`}
     >
+      <Navbar className="absolute top-0 bottom-0 left-0 right-0" />
       <div className="w-full flex flex-row justify-center items-center">
         <div className="bg-[#000000] rounded-xl p-3 w-11/12 sm:w-6/12 lg:w-4/12">
           {loading ? (

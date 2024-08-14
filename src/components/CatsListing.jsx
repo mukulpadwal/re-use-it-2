@@ -1,4 +1,4 @@
-import { CatInfoCard, Logo } from "./";
+import { CatInfoCard, Logo, Navbar } from "./";
 import axios from "axios";
 import Skeleton from "react-loading-skeleton";
 import { useEffect } from "react";
@@ -40,6 +40,7 @@ function CatsListing() {
       style={{ backgroundImage: `url("/assets/bg3.png")` }}
       className={`relative min-w-screen min-h-screen bg-[#a1a1a1] bg-cover md:bg-contain flex flex-wrap justify-center items-start p-2`}
     >
+      <Navbar className="absolute top-0 bottom-0 left-0 right-0" />
       <div className="w-full h-full">
         <div className="w-full flex flex-row items-center justify-between">
           <h1 className="p-4 w-full text-3xl sm:text-5xl text-[#FFFFFF] font-bold">
