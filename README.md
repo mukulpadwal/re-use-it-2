@@ -24,3 +24,13 @@
 - This component is built using React and vanilla javascript.
 - API used to get random user data : https://api.freeapi.app/api/v1/public/randomjokes/joke/random
 - Package used to add loading skeleton animation : `react-loading-skeleton`
+
+### [Component 3 : Cats listing](https://re-use-it-2.netlify.app/cats-listing)
+
+<img src="./public/assets/cats-listing.png"></img>
+
+- Card Component that displays information about various cats data fetched from api.
+- This component is built using React and vanilla javascript.
+- API used to get random user data : https://api.freeapi.app/api/v1/public/cats?page=1
+- Package used to add loading skeleton animation : `react-loading-skeleton`
+- Packages used to implement infinite scroll `@tanstack/react-query` & `react-intersection-observer`
