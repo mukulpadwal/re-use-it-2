@@ -4,6 +4,8 @@
 
 **_MasterJi Machine Coding Round - 2 (React.js) Assignment_**
 
+---
+
 ### [Component 1 : Random User Profile](https://re-use-it-2.netlify.app/random-user)
 
 <img src="./public/assets/random-user.png"></img>
@@ -13,6 +15,8 @@
 - API used to get random user data : https://api.freeapi.app/api/v1/public/randomusers/user/random
 - Package used to add map image support : `react-country-flag`
 - Package used to add loading skeleton animation : `react-loading-skeleton`
+
+---
 
 ### [Component 2 : Random Jokes tweet](https://re-use-it-2.netlify.app/random-jokes)
 
@@ -25,6 +29,8 @@
 - API used to get random user data : https://api.freeapi.app/api/v1/public/randomjokes/joke/random
 - Package used to add loading skeleton animation : `react-loading-skeleton`
 
+---
+
 ### [Component 3 : Cats listing](https://re-use-it-2.netlify.app/cats-listing)
 
 <img src="./public/assets/cats-listing.png"></img>
@@ -34,3 +40,5 @@
 - API used to get random user data : https://api.freeapi.app/api/v1/public/cats?page=1
 - Package used to add loading skeleton animation : `react-loading-skeleton`
 - Packages used to implement infinite scroll `@tanstack/react-query` & `react-intersection-observer`
+
+---
